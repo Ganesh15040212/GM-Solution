@@ -36,7 +36,7 @@ export function ProcessSteps() {
                 <p className="text-xs font-semibold uppercase tracking-[0.2em] text-subtle">Phase {i + 1}</p>
                 <h3 className="mt-2 text-2xl font-semibold text-fg sm:text-3xl">{phase.title}</h3>
                 <p className="mt-3 text-lg text-fg/90">{phase.summary}</p>
-                <p className="mt-4 leading-relaxed text-muted">{phase.details}</p>
+                <p className="mt-4 leading-relaxed text-muted text-justify-prose">{phase.details}</p>
               </div>
 
               <ol className="space-y-3 self-start">

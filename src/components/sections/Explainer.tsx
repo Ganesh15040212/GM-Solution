@@ -12,7 +12,7 @@ export function Explainer() {
       <Container className="grid gap-14 lg:grid-cols-2 lg:items-center">
         <div>
           <SectionHeading eyebrow={explainer.eyebrow} title={explainer.title} align="left" />
-          <div className="mt-6 space-y-5 text-base leading-relaxed text-muted sm:text-lg">
+          <div className="mt-6 space-y-5 text-base leading-relaxed text-muted text-justify-prose sm:text-lg">
             {explainer.paragraphs.map((p) => (
               <p key={p}>{p}</p>
             ))}

@@ -16,7 +16,7 @@ export function About() {
         <div className="mt-16 grid gap-12 lg:grid-cols-[1.4fr_1fr] lg:gap-16">
           <div>
             <h3 className="text-2xl font-semibold text-fg">{story.title}</h3>
-            <div className="mt-5 space-y-5 text-base leading-relaxed text-muted sm:text-lg">
+            <div className="mt-5 space-y-5 text-base leading-relaxed text-muted text-justify-prose sm:text-lg">
               {story.paragraphs.map((p) => (
                 <p key={p}>{p}</p>
               ))}
@@ -55,7 +55,7 @@ export function About() {
         <div className="mt-20 grid gap-16 lg:grid-cols-2">
           <div>
             <h3 className="text-2xl font-semibold text-fg">{team.title}</h3>
-            <p className="mt-3 leading-relaxed text-muted">{team.description}</p>
+            <p className="mt-3 leading-relaxed text-muted text-justify-prose">{team.description}</p>
             <ul className="mt-8 flex flex-wrap gap-2.5">
               {team.expertise.map((area) => (
                 <li key={area} className="rounded-full border border-line-strong bg-card px-4 py-2 text-sm text-fg">

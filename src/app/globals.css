@@ -79,6 +79,13 @@
   background-size: 56px 56px;
 }
 
+@utility text-justify-prose {
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+}
+
 @utility mask-fade-x {
   mask-image: linear-gradient(to right, transparent, black 12%, black 88%, transparent);
 }
