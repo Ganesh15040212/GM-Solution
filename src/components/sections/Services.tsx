@@ -20,13 +20,13 @@ export function ServiceModels() {
               key={service.title}
               className="group flex flex-col overflow-hidden rounded-2xl border border-line bg-card transition-colors duration-300 hover:border-brand/60"
             >
-              <div className="flex h-40 items-center justify-center bg-white p-5">
+              <div className="flex h-40 items-center justify-center bg-white p-4">
                 <Image
-                  src={service.image.src}
+                  src={service.image}
                   alt=""
-                  width={service.image.width}
-                  height={service.image.height}
-                  sizes="240px"
+                  width={320}
+                  height={200}
+                  unoptimized
                   className="h-full w-auto object-contain transition-transform duration-500 group-hover:scale-105"
                 />
               </div>

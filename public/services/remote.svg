@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" fill="none">
+  <ellipse cx="160" cy="176" rx="140" ry="8" fill="#e8eefb"/>
+  <rect x="70" y="24" width="180" height="120" rx="8" fill="#012060"/>
+  <rect x="78" y="32" width="164" height="104" rx="4" fill="#ffffff"/>
+  <clipPath id="t1"><rect x="80" y="34" width="78" height="48" rx="3"/></clipPath>
+  <clipPath id="t2"><rect x="162" y="34" width="78" height="48" rx="3"/></clipPath>
+  <clipPath id="t3"><rect x="80" y="86" width="78" height="48" rx="3"/></clipPath>
+  <clipPath id="t4"><rect x="162" y="86" width="78" height="48" rx="3"/></clipPath>
+  <g clip-path="url(#t1)">
+    <rect x="80" y="34" width="78" height="48" fill="#e8eefb"/>
+    <path d="M103 82a16 14 0 0 1 32 0z" fill="#2459d6"/>
+    <circle cx="119" cy="56" r="9" fill="#f2c9a6"/>
+    <path d="M110 55a9 9 0 0 1 18 0c-4-4-12-5-18 0z" fill="#0b1b3f"/>
+  </g>
+  <g clip-path="url(#t2)">
+    <rect x="162" y="34" width="78" height="48" fill="#dbe5fa"/>
+    <path d="M185 82a16 14 0 0 1 32 0z" fill="#012060"/>
+    <circle cx="201" cy="56" r="9" fill="#8d5a3b"/>
+    <path d="M192 56a9 9 0 0 1 18 0c-3-6-15-6-18 0z" fill="#0b1b3f"/>
+  </g>
+  <g clip-path="url(#t3)">
+    <rect x="80" y="86" width="78" height="48" fill="#dbe5fa"/>
+    <path d="M103 134a16 14 0 0 1 32 0z" fill="#8fb0f2"/>
+    <circle cx="119" cy="108" r="9" fill="#c68a5e"/>
+    <path d="M110 108a9 9 0 0 1 18 0v8c-2-6-2-10-9-12-7 2-7 6-9 12z" fill="#0b1b3f"/>
+  </g>
+  <g clip-path="url(#t4)">
+    <rect x="162" y="86" width="78" height="48" fill="#e8eefb"/>
+    <path d="M185 134a16 14 0 0 1 32 0z" fill="#0b3a8c"/>
+    <circle cx="201" cy="108" r="9" fill="#f2c9a6"/>
+    <path d="M192 107a9 9 0 0 1 18 0c-4-4-12-5-18 0z" fill="#8d5a3b"/>
+  </g>
+  <path d="M50 144h220l-12 14H62z" fill="#c9d3e3"/>
+  <rect x="140" y="144" width="40" height="4" rx="2" fill="#aab6cc"/>
+  <rect x="258" y="28" width="48" height="28" rx="10" fill="#2459d6"/>
+  <path d="M268 56l-4 8 10-8z" fill="#2459d6"/>
+  <circle cx="272" cy="42" r="3" fill="#ffffff"/><circle cx="282" cy="42" r="3" fill="#ffffff"/><circle cx="292" cy="42" r="3" fill="#ffffff"/>
+  <rect x="14" y="70" width="46" height="26" rx="9" fill="#ffffff" stroke="#c9d3e3" stroke-width="2"/>
+  <rect x="22" y="78" width="30" height="4" rx="2" fill="#8fb0f2"/>
+  <rect x="22" y="86" width="18" height="4" rx="2" fill="#c9d3e3"/>
+</svg>

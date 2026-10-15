@@ -11,14 +11,14 @@ export function Challenges() {
     <section className="border-y border-line bg-surface py-20 sm:py-28">
       <Container className="grid items-center gap-14 lg:grid-cols-[20rem_1fr] lg:gap-20">
         <figure className="mx-auto w-full max-w-xs overflow-hidden rounded-3xl border border-line bg-white shadow-xl shadow-brand/10">
-          <div className="bg-accent-soft pt-8">
+          <div className="bg-accent-soft pt-6">
             <Image
-              src="/images/challenges.png"
-              alt="Professional shrugging, unsure how to solve a hiring problem"
-              width={787}
-              height={1150}
-              sizes="320px"
-              className="mx-auto h-72 w-full object-cover object-top"
+              src="/images/challenges.svg"
+              alt="Illustration of a professional shrugging, unsure how to solve a hiring problem"
+              width={320}
+              height={288}
+              unoptimized
+              className="mx-auto h-72 w-full object-contain object-bottom"
             />
           </div>
           <figcaption className="bg-brand-gradient py-6 text-center font-display text-2xl font-bold text-white">

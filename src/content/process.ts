@@ -29,7 +29,7 @@ export const processPhases: ProcessPhase[] = [
     details:
       "We match your requirements against engineers who have already passed our technical screening. You get a focused shortlist instead of a pile of resumes, and the final call is always yours.",
     steps: [
-      { title: "Résumé Sharing (24 hours)", description: "Matched, pre-vetted profiles in your inbox within a day." },
+      { title: "ResumeSharing (24 hours)", description: "Matched, pre-vetted profiles in your inbox within a day." },
       { title: "Technical Screening", description: "Coding and domain assessments confirm every candidate's skills." },
       { title: "Client Interview", description: "You interview your preferred candidates on your schedule." },
     ],

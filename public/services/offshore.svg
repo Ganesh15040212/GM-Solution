@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" fill="none">
+  <ellipse cx="160" cy="184" rx="140" ry="8" fill="#e8eefb"/>
+  <rect x="28" y="112" width="40" height="68" rx="3" fill="#2459d6"/>
+  <g fill="#e8eefb">
+    <rect x="36" y="122" width="8" height="8"/><rect x="52" y="122" width="8" height="8"/>
+    <rect x="36" y="138" width="8" height="8"/><rect x="52" y="138" width="8" height="8"/>
+    <rect x="36" y="154" width="8" height="8"/><rect x="52" y="154" width="8" height="8"/>
+  </g>
+  <rect x="244" y="86" width="46" height="94" rx="3" fill="#012060"/>
+  <g fill="#8fb0f2">
+    <rect x="252" y="96" width="8" height="8"/><rect x="266" y="96" width="8" height="8"/><rect x="280" y="96" width="6" height="8"/>
+    <rect x="252" y="112" width="8" height="8"/><rect x="266" y="112" width="8" height="8"/><rect x="280" y="112" width="6" height="8"/>
+    <rect x="252" y="128" width="8" height="8"/><rect x="266" y="128" width="8" height="8"/><rect x="280" y="128" width="6" height="8"/>
+    <rect x="252" y="144" width="8" height="8"/><rect x="266" y="144" width="8" height="8"/><rect x="280" y="144" width="6" height="8"/>
+  </g>
+  <rect x="260" y="162" width="14" height="18" fill="#e8eefb"/>
+  <rect x="156" y="160" width="8" height="16" fill="#012060"/>
+  <rect x="136" y="174" width="48" height="6" rx="3" fill="#012060"/>
+  <circle cx="160" cy="100" r="62" fill="#e8eefb" stroke="#2459d6" stroke-width="3"/>
+  <path d="M128 62c10 4 20 2 26 10s-4 16 4 22-14 12-24 8-18-14-16-24 4-18 10-16z" fill="#8fb0f2"/>
+  <path d="M178 112c8-6 22-6 28 2s0 20-8 26-20 4-24-4 0-18 4-24z" fill="#8fb0f2"/>
+  <ellipse cx="160" cy="100" rx="26" ry="62" stroke="#2459d6" stroke-width="2"/>
+  <path d="M98 100h124M106 70h108M106 130h108" stroke="#2459d6" stroke-width="2"/>
+  <path d="M120 60Q168 6 204 104" stroke="#012060" stroke-width="2.5" stroke-dasharray="5 5" stroke-linecap="round"/>
+  <g transform="translate(120 84)">
+    <path d="M0 0c-8-10-12-15-12-21a12 12 0 0 1 24 0c0 6-4 11-12 21z" fill="#012060"/>
+    <circle cy="-21" r="4.5" fill="#ffffff"/>
+  </g>
+  <g transform="translate(204 130)">
+    <path d="M0 0c-8-10-12-15-12-21a12 12 0 0 1 24 0c0 6-4 11-12 21z" fill="#012060"/>
+    <circle cy="-21" r="4.5" fill="#ffffff"/>
+  </g>
+</svg>

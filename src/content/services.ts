@@ -14,42 +14,42 @@ export const serviceModels = [
   {
     title: "Dedicated Developers",
     description: "Full-time engineers who work exclusively on your product as part of your team.",
-    image: { src: "/services/dedicated-developers.png", width: 305, height: 219 },
+    image: "/services/dedicated-developers.svg",
   },
   {
     title: "Team Extension",
     description: "Add skilled engineers to your existing team to close skill gaps and boost velocity.",
-    image: { src: "/services/team-extension.png", width: 350, height: 179 },
+    image: "/services/team-extension.svg",
   },
   {
     title: "Offshore Development Center",
     description: "A dedicated offshore engineering center that runs as an extension of your company.",
-    image: { src: "/services/offshore.png", width: 403, height: 195 },
+    image: "/services/offshore.svg",
   },
   {
     title: "Remote Development Team",
     description: "A complete remote team of developers, QA, and leads, working inside your processes.",
-    image: { src: "/services/remote.png", width: 285, height: 228 },
+    image: "/services/remote.svg",
   },
   {
     title: "Contract Staffing",
     description: "Engineers on fixed-term contracts for defined projects or temporary demand.",
-    image: { src: "/services/contract.png", width: 170, height: 225 },
+    image: "/services/contract.svg",
   },
   {
     title: "Build Operate Transfer",
     description: "We build and run your engineering team, then transfer it to you when you're ready.",
-    image: { src: "/services/dedicated-developers.png", width: 305, height: 219 },
+    image: "/services/build-operate-transfer.svg",
   },
   {
     title: "Project-based Team",
     description: "A self-contained team assembled for one project, from kickoff to delivery.",
-    image: { src: "/services/project-team.png", width: 414, height: 216 },
+    image: "/services/project-team.svg",
   },
   {
     title: "Managed Team",
     description: "A fully managed team with delivery oversight. You get outcomes without the management overhead.",
-    image: { src: "/services/managed-team.png", width: 297, height: 223 },
+    image: "/services/managed-team.svg",
   },
 ];
 
