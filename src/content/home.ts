@@ -44,7 +44,7 @@ export const explainer = {
   title: "What is staff augmentation?",
   paragraphs: [
     "Staff augmentation lets you add skilled engineers to your existing team on demand. Instead of running a long hiring process, you tell us the skills you need and we provide vetted professionals who work inside your team, on your tools, under your direction.",
-    "You keep full control of the roadmap, the code, and day-to-day priorities. Your augmented engineers join your stand-ups, commit to your repositories, and follow your processes — while we take care of sourcing, vetting, contracts, payroll, and replacements.",
+    "You keep full control of the roadmap, the code, and day-to-day priorities. Your augmented engineers join your stand-ups, commit to your repositories, and follow your processes, while we take care of sourcing, vetting, contracts, payroll, and replacements.",
     "The result: you close skill gaps and hit deadlines without adding permanent headcount, and you can scale the team up or down as your projects change.",
   ],
   comparison: {
@@ -65,7 +65,7 @@ export const challenges = {
   eyebrow: "Sound familiar?",
   title: "Are you facing these challenges?",
   description:
-    "Staff augmentation removes the bottlenecks that slow engineering teams down — so you can keep shipping.",
+    "Staff augmentation removes the bottlenecks that slow engineering teams down, so you can keep shipping.",
   imageLabel: "Are you facing?",
   items: [
     "Hiring delays",
@@ -153,7 +153,7 @@ export const benefits: Benefit[] = [
   },
   {
     title: "Enterprise ready, no hiring risk",
-    description: "NDA, IP protection, secure access, and compliance — plus immediate replacement if a fit isn't right.",
+    description: "NDA, IP protection, secure access, and compliance, plus immediate replacement if a fit isn't right.",
     icon: ShieldCheck,
   },
 ];

@@ -11,7 +11,7 @@ export function ServiceModels() {
         <SectionHeading
           eyebrow="Services"
           title="Our staff augmentation services"
-          description="Choose the model that fits how you want to work — from a single dedicated developer to a fully managed team."
+          description="Choose the model that fits how you want to work, from a single dedicated developer to a fully managed team."
         />
 
         <ul className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
@@ -49,7 +49,7 @@ export function Roles() {
         <SectionHeading
           eyebrow="Roles we staff"
           title="The engineers your roadmap needs"
-          description="Fill any gap in your team — from a single specialist to a complete product squad."
+          description="Fill any gap in your team, from a single specialist to a complete product squad."
         />
 
         <ul className="mt-14 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">

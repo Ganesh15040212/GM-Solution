@@ -16,7 +16,7 @@ export function Footer() {
         <div className="max-w-sm">
           <Logo tone="light" />
           <p className="mt-5 text-sm leading-relaxed text-white/70">
-            Pre-vetted engineers who join your team, follow your process, and help you ship — on your terms.
+            Pre-vetted engineers who join your team, follow your process, and help you ship on your terms.
           </p>
           <a
             href={site.linkedin}

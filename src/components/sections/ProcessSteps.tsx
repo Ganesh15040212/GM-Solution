@@ -16,7 +16,7 @@ export function ProcessSteps() {
         <SectionHeading
           eyebrow="How it works"
           title="Our hiring process"
-          description="Four phases, eight steps — from your first call to a fully staffed team, with you in control at every step."
+          description="Four phases and eight steps, from your first call to a fully staffed team, with you in control at every step."
         />
 
         <ol className="mt-14 space-y-6 lg:space-y-8">

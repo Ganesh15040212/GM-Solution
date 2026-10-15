@@ -145,7 +145,7 @@ export function userConfirmation(inquiry: Pick<Inquiry, "name">): Email {
     preheader: "Thanks for contacting us. Here's what happens next.",
     title: subject,
     body: `
-      <h1 style="margin:0 0 16px;font-size:22px;line-height:1.3;color:${color.ink};">Thanks, ${escapeHtml(firstName)} — we've got your message</h1>
+      <h1 style="margin:0 0 16px;font-size:22px;line-height:1.3;color:${color.ink};">Thanks, ${escapeHtml(firstName)}. We've got your message.</h1>
       <p style="margin:0 0 24px;">Thank you for contacting ${site.name}. Our team is reviewing your requirements and will get back to you shortly.</p>
       <p style="margin:0 0 12px;font-size:12px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:${color.accent};">What happens next</p>
       <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
@@ -174,7 +174,7 @@ export function userConfirmation(inquiry: Pick<Inquiry, "name">): Email {
     `Thank you for contacting ${site.name}. Our team is reviewing your requirements and will get back to you shortly.`,
     "",
     "What happens next:",
-    ...nextSteps.map(([title, detail], i) => `${i + 1}. ${title} — ${detail}`),
+    ...nextSteps.map(([title, detail], i) => `${i + 1}. ${title}: ${detail}`),
     "",
     `Need to add anything? Just reply to this email, or reach us at ${site.email} or ${site.phone.display}.`,
     "",

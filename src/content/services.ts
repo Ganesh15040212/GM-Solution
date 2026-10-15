@@ -28,7 +28,7 @@ export const serviceModels = [
   },
   {
     title: "Remote Development Team",
-    description: "A complete remote team — developers, QA, and leads — working inside your processes.",
+    description: "A complete remote team of developers, QA, and leads, working inside your processes.",
     image: { src: "/services/remote.png", width: 285, height: 228 },
   },
   {
@@ -48,7 +48,7 @@ export const serviceModels = [
   },
   {
     title: "Managed Team",
-    description: "A fully managed team with delivery oversight — outcomes without the management overhead.",
+    description: "A fully managed team with delivery oversight. You get outcomes without the management overhead.",
     image: { src: "/services/managed-team.png", width: 297, height: 223 },
   },
 ];

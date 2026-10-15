@@ -27,7 +27,7 @@ export const processPhases: ProcessPhase[] = [
     icon: Handshake,
     summary: "Review pre-vetted resumes within 24 hours and interview the engineers you like.",
     details:
-      "We match your requirements against engineers who have already passed our technical screening. You get a focused shortlist instead of a pile of resumes — and the final call is always yours.",
+      "We match your requirements against engineers who have already passed our technical screening. You get a focused shortlist instead of a pile of resumes, and the final call is always yours.",
     steps: [
       { title: "Résumé Sharing (24 hours)", description: "Matched, pre-vetted profiles in your inbox within a day." },
       { title: "Technical Screening", description: "Coding and domain assessments confirm every candidate's skills." },
@@ -39,7 +39,7 @@ export const processPhases: ProcessPhase[] = [
     icon: Rocket,
     summary: "Your engineers join your tools, rituals, and codebase in 48–72 hours.",
     details:
-      "Once you've chosen your engineers, we handle the paperwork and setup so they can focus on getting productive — working as part of your team, not as a separate vendor.",
+      "Once you've chosen your engineers, we handle the paperwork and setup so they can focus on getting productive and working as part of your team, not as a separate vendor.",
     steps: [
       { title: "Developer Selection", description: "You confirm the engineers who will join your team." },
       { title: "NDA", description: "NDA and IP protection are signed before any access is granted." },
@@ -51,7 +51,7 @@ export const processPhases: ProcessPhase[] = [
     icon: LifeBuoy,
     summary: "Daily reporting, direct communication, and fast replacement if a fit isn't right.",
     details:
-      "After kickoff we stay involved. You get daily reporting and direct access to your engineers, and we scale the team up or down — or replace an engineer immediately — as your needs change.",
+      "After kickoff we stay involved. You get daily reporting and direct access to your engineers, and we scale the team up or down (or replace an engineer immediately) as your needs change.",
     steps: [
       {
         title: "Project Kickoff",
