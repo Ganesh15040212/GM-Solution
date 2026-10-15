@@ -25,9 +25,9 @@ export const processPhases: ProcessPhase[] = [
   {
     title: "Talent Matching",
     icon: Handshake,
-    summary: "Review pre-vetted résumés within 24 hours and interview the engineers you like.",
+    summary: "Review pre-vetted resumes within 24 hours and interview the engineers you like.",
     details:
-      "We match your requirements against engineers who have already passed our technical screening. You get a focused shortlist instead of a pile of résumés — and the final call is always yours.",
+      "We match your requirements against engineers who have already passed our technical screening. You get a focused shortlist instead of a pile of resumes — and the final call is always yours.",
     steps: [
       { title: "Résumé Sharing (24 hours)", description: "Matched, pre-vetted profiles in your inbox within a day." },
       { title: "Technical Screening", description: "Coding and domain assessments confirm every candidate's skills." },

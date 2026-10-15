@@ -17,7 +17,7 @@ export const site = {
   url: resolveSiteUrl(process.env.NEXT_PUBLIC_SITE_URL),
   tagline: "IT Staff Augmentation Services",
   description:
-    "Scale your engineering team with pre-vetted developers across .NET, Java, Python, React, AI, Cloud, and DevOps. Get matched résumés in 24 hours and onboard experienced engineers in 48–72 hours with GM Solution LLC.",
+    "Scale your engineering team with pre-vetted developers across .NET, Java, Python, React, AI, Cloud, and DevOps. Get matched resumes in 24 hours and onboard experienced engineers in 48–72 hours with GM Solution LLC.",
   email: "accounts@gmsolllc.com",
   phone: { display: "+1 (718) 902-4586", href: "tel:+17189024586" },
   address: {

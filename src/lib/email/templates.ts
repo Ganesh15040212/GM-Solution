@@ -133,7 +133,7 @@ export function ownerNotification(inquiry: Inquiry, submittedAt = new Date()): E
 
 const nextSteps = [
   ["We review your requirements", "Our team looks at your project, tech stack, and the skills you need."],
-  ["You receive matched résumés", "Profiles of pre-vetted engineers within 24 hours."],
+  ["You receive matched resumes", "Profiles of pre-vetted engineers within 24 hours."],
   ["Interview and onboard", "Pick your engineers and get them started in 48–72 hours."],
 ];
 

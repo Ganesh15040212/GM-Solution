@@ -62,7 +62,7 @@ Open http://localhost:3000.
 | `src/content/process.ts`  | The hiring process: 4 phases containing 8 steps (How It Works section)                                |
 | `src/content/about.ts`    | Company story, key figures, mission, values, team expertise, global presence (About section)          |
 
-The content is adapted from GM Solution's reference staff augmentation page. That includes the stats (50+ engineers, 100+ projects, 10+ years, 95% retention), the timelines (résumés in 24 hours, onboarding in 48–72 hours), the client logos, and the Coimbatore delivery center.
+The content is adapted from GM Solution's reference staff augmentation page. That includes the stats (50+ engineers, 100+ projects, 10+ years, 95% retention), the timelines (resumes in 24 hours, onboarding in 48–72 hours), the client logos, and the Coimbatore delivery center.
 
 Section headings and intro lines are in the matching component in `src/components/sections/`. To reorder or regroup the page's sections, edit `src/app/page.tsx`.
 
@@ -103,7 +103,7 @@ The form posts to a **Next.js server action** (`src/actions/contact.ts`). It val
 | Email | Sent to | Reply-To | What it contains |
 | ----- | ------- | -------- | ---------------- |
 | **New inquiry** | `MAIL_TO` (your inbox) | The visitor | Name, email, company, submission time, the message, and a "Reply to …" button |
-| **Confirmation** | The visitor's email | `MAIL_TO` | Thank-you note, the next steps (résumés in 24 hours, onboarding in 48–72 hours), and your contact details |
+| **Confirmation** | The visitor's email | `MAIL_TO` | Thank-you note, the next steps (resumes in 24 hours, onboarding in 48–72 hours), and your contact details |
 
 - **If the inquiry email fails,** the visitor sees an error asking them to try again or email you directly.
 - **The confirmation is sent after the response,** using Next's `after()`, so the form stays fast. If only the confirmation fails, the inquiry has still reached you, and the error is logged.

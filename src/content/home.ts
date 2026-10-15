@@ -16,7 +16,7 @@ export const hero = {
   description:
     "Add pre-vetted developers across .NET, Java, Python, React, Angular, Magento, Salesforce, SAP, AI, Data Engineering, QA, Cloud, and DevOps. Onboard experienced professionals within 48–72 hours while keeping complete control over your project.",
   cta: { label: "Contact Us", href: "/#contact" },
-  highlights: ["Résumés in 24 hours", "Onboard in 48–72 hours", "Complete project control"],
+  highlights: ["Resumes in 24 hours", "Onboard in 48–72 hours", "Complete project control"],
   profiles: [
     { role: "Senior .NET Developer", skills: [".NET Core", "Azure", "SQL Server"] },
     { role: "React Developer", skills: ["React", "Next.js", "TypeScript"] },
@@ -118,7 +118,7 @@ export type Benefit = { title: string; description: string; icon: LucideIcon };
 export const benefits: Benefit[] = [
   {
     title: "Faster hiring",
-    description: "Skip months of recruitment. Get matched résumés in 24 hours and engineers onboarded in 48–72 hours.",
+    description: "Skip months of recruitment. Get matched resumes in 24 hours and engineers onboarded in 48–72 hours.",
     icon: Zap,
   },
   {
@@ -161,6 +161,6 @@ export const benefits: Benefit[] = [
 export const ctaBand = {
   title: "Ready to add engineers to your team?",
   description:
-    "Tell us what you're building and the skills you need. You'll have matched résumés within 24 hours.",
+    "Tell us what you're building and the skills you need. You'll have matched resumes within 24 hours.",
   cta: { label: "Contact Us", href: "/#contact" },
 };

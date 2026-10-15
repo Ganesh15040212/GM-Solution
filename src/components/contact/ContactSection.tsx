@@ -7,7 +7,7 @@ import { ContactForm } from "./ContactForm";
 
 const nextSteps = [
   { icon: MessageSquareText, text: "Tell us about your project and the skills you need." },
-  { icon: FileText, text: "Receive résumés of matched, pre-vetted engineers within 24 hours." },
+  { icon: FileText, text: "Receive resumes of matched, pre-vetted engineers within 24 hours." },
   { icon: Rocket, text: "Interview, select, and onboard your engineers in 48–72 hours." },
 ];
 
