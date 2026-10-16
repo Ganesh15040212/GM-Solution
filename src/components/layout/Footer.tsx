@@ -12,10 +12,10 @@ export function Footer() {
   return (
     <footer className="relative overflow-hidden bg-brand text-white">
       <div className="pointer-events-none absolute inset-0 bg-lines-light" aria-hidden="true" />
-      <Container className="relative grid gap-12 py-16 md:grid-cols-2 lg:grid-cols-[1.4fr_1fr_1.3fr]">
-        <div className="max-w-sm">
+      <Container className="relative grid grid-cols-[auto_minmax(0,1fr)] gap-x-10 gap-y-12 py-16 sm:grid-cols-2 md:grid-cols-[1.4fr_1fr_auto] md:gap-x-8 lg:grid-cols-[1.4fr_1fr_1.3fr] lg:gap-x-12">
+        <div className="col-span-2 max-w-sm md:col-span-1">
           <Logo tone="light" />
-          <p className="mt-5 text-sm leading-relaxed text-white/70">
+          <p className="mt-5 text-sm leading-relaxed text-white/70 text-justify-prose">
             Pre-vetted engineers who join your team, follow your process, and help you ship on your terms.
           </p>
           <a
@@ -42,7 +42,7 @@ export function Footer() {
           </ul>
         </nav>
 
-        <div>
+        <div className="min-w-0 justify-self-end lg:justify-self-auto">
           <h2 className="text-sm font-semibold uppercase tracking-[0.15em] text-white">Get in touch</h2>
           <ul className="mt-5 space-y-4 text-sm">
             <li className="flex items-start gap-2.5 text-white/70">
@@ -58,7 +58,10 @@ export function Footer() {
             <li>
               <a href={`mailto:${site.email}`} className={linkClass}>
                 <Mail className="mt-0.5 h-4 w-4 shrink-0" aria-hidden="true" />
-                {site.email}
+                <span className="min-w-0 [overflow-wrap:anywhere]">
+                  {site.email.split("@")[0]}
+                  <wbr />@{site.email.split("@")[1]}
+                </span>
               </a>
             </li>
           </ul>
@@ -66,9 +69,11 @@ export function Footer() {
       </Container>
 
       <div className="relative border-t border-white/10">
-        <Container className="flex flex-col gap-2 py-6 text-xs text-white/60 sm:flex-row sm:items-center sm:justify-between">
-          <p>{site.copyright}. All rights reserved.</p>
-          <p>{site.domain}</p>
+        <Container className="flex items-center justify-between gap-4 py-6 text-xs text-white/60">
+          <p>
+            {site.copyright}. <span className="whitespace-nowrap">All rights reserved.</span>
+          </p>
+          <p className="shrink-0">{site.domain}</p>
         </Container>
       </div>
     </footer>

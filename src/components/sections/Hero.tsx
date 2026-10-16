@@ -53,7 +53,7 @@ export function Hero() {
           <h1 className="mt-6 text-4xl font-extrabold leading-[1.08] sm:text-5xl lg:text-6xl">
             <span className="text-gradient">{hero.title}</span>
           </h1>
-          <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted">{hero.description}</p>
+          <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted text-justify-prose">{hero.description}</p>
 
           <div className="mt-9">
             <ButtonLink href={hero.cta.href} size="lg">

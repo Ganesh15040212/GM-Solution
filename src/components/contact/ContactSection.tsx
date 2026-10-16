@@ -29,7 +29,7 @@ export function ContactSection({ id = "contact" }: { id?: string }) {
                 <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-accent-soft text-accent">
                   <step.icon className="h-5 w-5" aria-hidden="true" />
                 </span>
-                <p className="pt-2 text-sm text-muted">
+                <p className="pt-2 text-sm text-muted text-justify-prose">
                   <span className="font-semibold text-fg">Step {i + 1}. </span>
                   {step.text}
                 </p>

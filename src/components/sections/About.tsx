@@ -16,7 +16,7 @@ export function About() {
         <div className="mt-16 grid gap-12 lg:grid-cols-[1.4fr_1fr] lg:gap-16">
           <div>
             <h3 className="text-2xl font-semibold text-fg">{story.title}</h3>
-            <div className="mt-5 space-y-5 text-base leading-relaxed text-muted text-justify-prose sm:text-lg">
+            <div className="mt-5 space-y-5 text-base leading-relaxed text-muted text-justify-prose indent-[2em] sm:text-lg">
               {story.paragraphs.map((p) => (
                 <p key={p}>{p}</p>
               ))}
@@ -47,7 +47,7 @@ export function About() {
                 <value.icon className="h-6 w-6" aria-hidden="true" />
               </div>
               <h4 className="mt-5 text-lg font-semibold text-fg">{value.title}</h4>
-              <p className="mt-2 text-sm leading-relaxed text-muted">{value.description}</p>
+              <p className="mt-2 text-sm leading-relaxed text-muted text-justify-prose">{value.description}</p>
             </li>
           ))}
         </ul>
@@ -55,7 +55,7 @@ export function About() {
         <div className="mt-20 grid gap-16 lg:grid-cols-2">
           <div>
             <h3 className="text-2xl font-semibold text-fg">{team.title}</h3>
-            <p className="mt-3 leading-relaxed text-muted text-justify-prose">{team.description}</p>
+            <p className="mt-3 leading-relaxed text-muted text-justify-prose indent-[2em]">{team.description}</p>
             <ul className="mt-8 flex flex-wrap gap-2.5">
               {team.expertise.map((area) => (
                 <li key={area} className="rounded-full border border-line-strong bg-card px-4 py-2 text-sm text-fg">
@@ -67,7 +67,7 @@ export function About() {
 
           <div>
             <h3 className="text-2xl font-semibold text-fg">{presence.title}</h3>
-            <p className="mt-3 text-muted">{presence.description}</p>
+            <p className="mt-3 text-muted text-justify-prose">{presence.description}</p>
             <div className="mt-8 grid gap-4 sm:grid-cols-2">
               <div className="rounded-2xl border border-line bg-card p-6">
                 <h4 className="flex items-center gap-2 font-semibold text-fg">

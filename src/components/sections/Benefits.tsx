@@ -20,7 +20,7 @@ export function Benefits() {
                 aria-hidden="true"
               />
               <h3 className="mt-5 text-lg font-semibold text-fg">{benefit.title}</h3>
-              <p className="mt-2 text-sm leading-relaxed text-muted">{benefit.description}</p>
+              <p className="mt-2 text-sm leading-relaxed text-muted text-justify-prose">{benefit.description}</p>
             </li>
           ))}
         </ul>

@@ -32,7 +32,7 @@ export function ServiceModels() {
               </div>
               <div className="flex-1 border-t-2 border-brand p-6">
                 <h3 className="text-lg font-semibold text-fg">{service.title}</h3>
-                <p className="mt-2 text-sm leading-relaxed text-muted">{service.description}</p>
+                <p className="mt-2 text-sm leading-relaxed text-muted text-justify-prose">{service.description}</p>
               </div>
             </li>
           ))}
@@ -62,7 +62,7 @@ export function Roles() {
                 <role.icon className="h-5 w-5" aria-hidden="true" />
               </div>
               <h3 className="mt-5 text-lg font-semibold text-fg">{role.title}</h3>
-              <p className="mt-2 flex-1 text-sm leading-relaxed text-muted">{role.summary}</p>
+              <p className="mt-2 flex-1 text-sm leading-relaxed text-muted text-justify-prose">{role.summary}</p>
               <ul className="mt-5 flex flex-wrap gap-1.5" aria-label={`${role.title} skills`}>
                 {role.skills.map((skill) => (
                   <li key={skill} className="rounded-full border border-line-strong px-2.5 py-0.5 text-[11px] text-muted">

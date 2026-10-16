@@ -26,7 +26,7 @@ export function EngagementModels() {
                 {model.tag}
               </span>
               <h3 className="mt-5 text-2xl font-semibold text-fg sm:text-3xl">{model.name}</h3>
-              <p className="mt-3 text-muted">{model.summary}</p>
+              <p className="mt-3 text-muted text-justify-prose">{model.summary}</p>
               <ul className="mt-7 space-y-3.5">
                 {model.points.map((point) => (
                   <li key={point} className="flex gap-3 text-sm text-fg sm:text-base">
@@ -35,7 +35,7 @@ export function EngagementModels() {
                   </li>
                 ))}
               </ul>
-              <p className="mt-8 border-t border-line pt-6 text-sm text-muted">
+              <p className="mt-8 border-t border-line pt-6 text-sm text-muted text-justify-prose">
                 <span className="font-semibold text-fg">Best for: </span>
                 {model.bestFor}
               </p>
