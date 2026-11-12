@@ -1,4 +1,5 @@
 import type { NextConfig } from "next";
+import loadCustomRoutes from "next/dist/lib/load-custom-routes";
 
 const securityHeaders = [
   { key: "X-Content-Type-Options", value: "nosniff" },
